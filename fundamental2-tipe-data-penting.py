@@ -1,0 +1,23 @@
+# Tipe data skalar => tipe data sederhana
+anak1 = 'Eko'
+anak2 = 'Dwi'
+anak3 = 'Tri'
+anak4 = 'Catur'
+
+# Tipe data list/daftar/array
+anak = ['Eko', 'Dwi', 'Tri', 'Catur']
+print(anak)
+
+print('\nSapa anak ke-2')
+print(f'Hai {anak[1]}')
+
+anak.append('Limo')
+
+print('\nSapa semua anak')
+for a in anak:
+    print(f'Hai {a}!')
+
+print('\nSapa semua anak : cara ribet')
+for a in range(0,len(anak)):
+    print(f'{a+1}. Hai {anak[a]}')
+
